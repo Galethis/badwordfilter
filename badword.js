@@ -291,3 +291,5 @@ console.log(filterBadWords("Hey you fucking asshole, go to hell!"));
 
 console.log(filterBadWords("This is a nice message")); 
 // Output: "This is a nice message"
+// Add this at the very end of badword.js:
+window.filterBadWords = filterBadWords;
