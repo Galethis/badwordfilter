@@ -253,6 +253,35 @@ const badWords = [
 "1diot", "1mbecile", "m0ron", "psych0", "sch1zo", "cr4zy", "1nsane", "l4me",
 "d3ranged", "m3ntal", "aut1st", "aut1sm", "bl1nd", "d3af", "m0ng", "m0ngoloid",
 "b4tshit", "n0rmie" /* sometimes reverse used */, "normie"
+
+    // === INAPPROPRIATE GEN ALPHA / BRAINROT SLANG ===
+"gyatt", "gyat", "gyattt", "level10gyatt", 
+"bop", "huzz", "chuzz", "chopped huzz",
+"gooner", "gooning", "goonette", "edging", "edge", "jelq",
+"mog", "mogging", "mogged",
+"rizz", "rizzler", "rizz up", // often in sexual/flirting contexts
+"ohio", // when used derogatorily for weird/creepy
+"skibidi", // can be neutral but often in vulgar meme combos
+"fanum tax", // mostly harmless but include if you want broad coverage
+"glizzy", // often slang for dick/gun
+"big back", "304", // 304 = hoe (calculator upside down)
+"zesty", // sometimes used derogatorily for effeminate/gay
+"sybau", // "shut your bitch ass up"
+"crash out", "cooked", // in aggressive contexts
+"delulu", // delusional, often mocking
+"simp", "simping",
+"negative aura", "negative1k aura", "aura farm", "aura points",
+"looksmaxxing", "mewing", // body/appearance obsession slang
+"sigma", "alpha male", "beta male", // in toxic manosphere contexts
+"traps", "trap", // often derogatory for trans
+"glazing", // excessive praise, sometimes sarcastic/creepy
+"coomer", "goon",
+"bomboclat", "claat", // Jamaican curse word equivalent to fuck
+"pegged", "oil up",
+"fine shyt", "fine shit", // objectifying
+"where the huzz at",
+"chopped", // ugly/unattractive
+"dogwater", // trash/derogatory
 ];
 
 
