@@ -1,3 +1,4 @@
+alert("Badword script loaded!");
 // Comprehensive Bad Word Filter
 const badWords = [
     // Core swear words and variations
