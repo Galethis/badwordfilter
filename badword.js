@@ -284,10 +284,6 @@ const badWords = [
 "dogwater", // trash/derogatory
 ];
 
-
-    // Add more here if needed - this is already very long
-];
-
 const badWordRegex = new RegExp(
     '\\b(' + badWords.map(word => word.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|') + ')\\b',
     'gi'
