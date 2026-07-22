@@ -252,7 +252,7 @@ const badWords = [
 "r3tard", "r3t4rd", "r tard", "t4rd", "sp4z", "spazzy", "cr1pple", "cr1p", "g1mp",
 "1diot", "1mbecile", "m0ron", "psych0", "sch1zo", "cr4zy", "1nsane", "l4me",
 "d3ranged", "m3ntal", "aut1st", "aut1sm", "bl1nd", "d3af", "m0ng", "m0ngoloid",
-"b4tshit", "n0rmie" /* sometimes reverse used */, "normie"
+"b4tshit", "n0rmie", /* sometimes reverse used */, "normie",
 
     // === INAPPROPRIATE GEN ALPHA SEXUAL / VULGAR / CURSE SLANG ===
     "gyatt", "gyat", "gyattt", "level10gyatt", "level 10 gyatt",
