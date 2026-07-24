@@ -1,5 +1,3 @@
-alert("Badword script loaded!");
-// Comprehensive Bad Word Filter
 const badWords = [
     // Core swear words and variations
     "fuck", "fucking", "fucked", "fucker", "fuckers", "fuckoff", "fuckyou", "fuk", "fck",
@@ -271,7 +269,66 @@ const badWords = [
     "sybau", "syba", // "shut your bitch ass up"
     "fine shyt", "fine shit", // objectifying "fine pussy/ass"
     "big back", // often used in a derogatory sexual/body-shaming way
-    "zesty", // often used as a soft slur for gay/effeminate
+    "zesty",// often used as a soft slur for gay/effeminate
+    
+        // === ADDITIONAL / EMERGING DRUGS & SLANG (not in previous sections) ===
+    // Newer / Designer / Research Chemicals
+    "fentanyl analogues", "fentalogues", "nitazenes", "iso", "etonitazene", "metonitazene",
+    "xylazine", "tranq", "tranq dope", // already have some xylazine but add phrases
+    "kratom", "kratom", "mitragyna",
+    "tianeptine", "gas station heroin", "za za red",
+    "phenibut", "ghb", "ghb", "liquid ecstasy",
+    "2c-b", "2cb", "2c-i", "2ci", "2c-t", "nbome", "25i", "25c",
+    "lsd analogues", "1p-lsd", "1cp-lsd", "ald-52",
+    "dmt", "dmt cart", "dmt vape", "changa",
+    "salvia", "salvia divinorum", "divinorum",
+    "ayahuasca", "huasca", "dmt brew",
+    "mescaline", "peyote", "san pedro",
+    "psilocybin", "mushroom chocolate", "shroom bar", "shroom gummies",
+    "ket", "special k", "ketamine", "k hole", // variations
+    "dxm", "dextromethorphan", "robotripping", "dex", "ccc",
+    "benadryl", "dph", "deliriants",
+
+    // Cannabis & Concentrates (newer terms)
+    "delta 8", "delta8", "delta 9", "delta9", "thca", "thc-a",
+    "live resin", "rosin", "hash rosin", "diamond sauce", "terps",
+    "dispo", "disposable", "cart", "thc cart", "weed pen",
+    "edible", "gummy", "delta gummy", "mushroom gummy",
+
+    // Stimulants & Misc
+    "cocaine", "coke", "crack", // already have, but add:
+    "flakka", "bath salts", "alpha pvp", "pvp", "mdphp",
+    "3mmc", "3cmc", "3mmc", "cathinone", "bath salt",
+    "amphetamine", "addies", "speed", "meth", // variations
+    "coke", "yayo", "snow", "blow", "white girl",
+
+    // Opioids & Painkillers (more street/brand)
+    "fent", "fetty", "fent press", "fent 30s", "blues", "m30s",
+    "oxy", "perc", "percs", "roxy", "hydros", "norco", "dilaudid",
+    "heroin", "smack", "dope", "boy", "china", "black tar",
+    "suboxone", "subbies", "subs", "bupe", "zubsolv",
+    "methadone", "dolophine", "diskettes",
+
+    // Prescription & Benzos
+    "xan", "xans", "xannies", "bars", "xanax bar",
+    "klonopin", "klons", "kpins", "valium", "ativan", "lorazepam",
+    "ambien", "zombie pill", "stilnox",
+    "adderall", "addy", "vyanse", "concerta",
+
+    // Alcohol & Misc Intoxicants
+    "lean", "dirty sprite", "sizzurp", "purple", "wock", "act",
+    "alcohol", "booze", "liquor", "drunk", "wasted", "hammered",
+    "poppers", "rush", "jungle juice", "amyl nitrite",
+
+    // Drug-related verbs / actions / culture
+    "tweak", "tweaking", "geeking", "fiend", "jonesing",
+    "nod", "nodding", "nod out", "zombie", "perched",
+    "rolling", "roll", "molly roll",
+    "trip", "tripping", "acid trip", "bad trip",
+    "hot rail", "hotrailing", "boof", "boofing", "plugging",
+    "parachute", "parachuting", "monkey water",
+    "overdose", "od", "fent od", " Narcan", "naloxone"
+];
 ];
 
 const badWordRegex = new RegExp(
